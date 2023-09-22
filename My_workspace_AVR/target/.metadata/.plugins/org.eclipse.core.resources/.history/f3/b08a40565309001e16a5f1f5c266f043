@@ -1,0 +1,12 @@
+/*
+ * main.c
+ *
+ *  Created on: 12 cze 2023
+ *      Author: kucha
+ */
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+
+
+

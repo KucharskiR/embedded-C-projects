@@ -1,0 +1,33 @@
+/*
+ * main.c
+ *
+ *  Created on: 5 lip 2023
+ *      Author: kucha
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void) {
+
+	int32_t a,b;
+	printf("Enter number 1: ");
+	scanf("%d",&a);
+	printf("\nEnter number 2: ");
+	scanf("%d",&b);
+
+	printf("\na: %d",a);
+	printf("\nb: %d",b);
+
+	printf("\n&: %d",a&b);
+	printf("\n|: %d",a|b);
+	printf("\n^: %d",a^b);
+	printf("\n~: %d",~a);
+
+
+	/* wait for the character */
+	printf("\nPress enter to end application...");
+	while(getchar() != '\n');
+
+	getchar();
+	return 0;
+}

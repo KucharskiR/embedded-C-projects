@@ -1,0 +1,95 @@
+/*
+ * main.c
+ *
+ *  Created on: 27 cze 2023
+ *      Author: kucha
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void) {
+	printf("Area calculation program\n"
+			"Circle --> c\n"
+			"Triangle --> t\n"
+			"Rectangle --> r\n"
+			"Square --> s\n"
+			"Trapezoid --> z\n"
+			"Enter the code here: ");
+	uint8_t input = 0;
+	scanf("%c",&input);
+
+	double radius,base,height,side1,side2,base1,base2;
+
+	switch (input) {
+		case 'c':
+			printf("Enter the radius: ");
+			if(!scanf("%lf",&radius) || radius <=0){
+				printf("Not valid radius");
+				break;
+			}
+			printf("Circle area = %0.5lf\n",3.14/4*(radius*radius));
+			break;
+		case 't':
+			printf("Enter the base: ");
+			if(!scanf("%lf",&base) || base <=0){
+				printf("Not valid base");
+				break;
+			}
+			printf("Enter the height: ");
+			if(!scanf("%lf",&height) || height <=0){
+				printf("Not valid height");
+				break;
+			}
+			printf("Triangle area = %0.5lf\n",(height*base)/2);
+			break;
+		case 'r':
+			printf("Enter the side one of the rectangle: ");
+			if(!scanf("%lf",&side1) || side1 <=0){
+				printf("Not valid side");
+				break;
+			}
+			printf("Enter the second side of the rectangle: ");
+			if(!scanf("%lf",&side2) || side2 <=0){
+				printf("Not valid side");
+				break;
+			}
+			printf("Rectangle area = %0.5lf\n",side1*side2);
+			break;
+		case 's':
+			printf("Enter the side of the square: ");
+			if(!scanf("%lf",&side1) || side1 <=0){
+				printf("Not valid side");
+				break;
+			}
+			printf("Square area = %0.5lf\n",side1*side1);
+			break;
+		case 'z':
+			printf("Enter the base one of the trapezoid: ");
+			if(!scanf("%lf",&base1) || base1 <=0){
+				printf("Not valid base");
+				break;
+			printf("Enter the second base of the trapezoid: ");
+			if(!scanf("%lf",&base2) || base2 <=0){
+				printf("Not valid base");
+				break;
+			}
+			printf("Enter the height of the trapezoid: ");
+			if(!scanf("%lf",&base2) || base2 <=0){
+				printf("Not valid base");
+				break;
+			}
+			printf("Square area = %0.5lf\n",side1*side1);
+			break;
+		default:
+			printf("Not valid type\n");
+			break;
+	}
+
+	/* wait for the character */
+	printf("\nPress enter to end application...");
+	while(getchar() != '\n');
+
+	getchar();
+	return 0;
+}

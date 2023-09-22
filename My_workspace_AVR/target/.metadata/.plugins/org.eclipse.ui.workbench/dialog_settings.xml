@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="PreferencesExportWizard">
+		<item key="" value="C:\Users\kucha\eclipse\eclipse-cpp-2023-06-RC1-win32-x86_64\eclipse\syntax_templates\C_syntax_templates_v1.epf"/>
+		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="false"/>
+		<item key="" value="C:\Users\kucha\eclipse\eclipse-cpp-2023-06-RC1-win32-x86_64\eclipse\syntax_templates\C_Editor_Appearance_Editor_Behavior_v1.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\kucha\eclipse\eclipse-cpp-2023-06-RC1-win32-x86_64\eclipse\syntax_templates\C_Editor_Appearance_Editor_Behavior_v1.epf"/>
+			<item value="C:\Users\kucha\eclipse\eclipse-cpp-2023-06-RC1-win32-x86_64\eclipse\syntax_templates\C_syntax_templates_v1.epf"/>
+		</list>
+		<list key="WizardPreferencesExportPage1.TRANSFER_PREFERENCES_NAMES_ID">
+			<item value="org.eclipse.cdt.ui.transfer.editor.appearance"/>
+			<item value="org.eclipse.cdt.ui.transfer.editor.behavior"/>
+		</list>
+	</section>
+</section>

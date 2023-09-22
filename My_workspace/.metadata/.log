@@ -1,0 +1,333 @@
+!SESSION 2023-08-10 08:56:31.479 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.ui 2 0 2023-08-10 08:57:04.233
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2023-08-10 08:57:04.233
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-08-10 08:57:05.521
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2023-08-10 08:57:05.719
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2023-08-10 08:57:09.823
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-10 08:57:09.823
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-10 08:57:20.152
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2023-08-10 08:58:09.645 -----------------------------------------------
+eclipse.buildId=4.28.0.20230608-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.embedcpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.embedcpp.product
+
+!ENTRY org.eclipse.jface 2 0 2023-08-10 08:58:30.578
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-08-10 08:58:30.578
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-08-10 08:58:38.110
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.067
+!MESSAGE Orphaned CDT build configuration [com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1046991395]: parent extension cfg [com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.actions.ChangeBuildConfigActionBase.onSelectionChanged(ChangeBuildConfigActionBase.java:320)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.selectionChanged(BuildActiveConfigMenuAction.java:104)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:201)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:264)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:288)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2128)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1660)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+	at org.eclipse.ui.navigator.CommonViewer.setSelection(CommonViewer.java:371)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.lambda$4(PackageExplorerContentProvider.java:988)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runUpdates(PackageExplorerContentProvider.java:210)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runPendingUpdates(PackageExplorerContentProvider.java:202)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider$1.runInUIThread(PackageExplorerContentProvider.java:180)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.125
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.1898575241"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.182
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1371938397"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.219
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.1164825210"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.250
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1936745064"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.279
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.716963274"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.307
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1115072316"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.350
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.701927686"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.386
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1964281660"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.417
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.definedsymbols.1846480463"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.449
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.1748416468"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.485
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.396240737"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.520
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.1060708089"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.559
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.596643901"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.591
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.1916459999"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.627
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.1767476848"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.661
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.1801483562"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.948
+!MESSAGE Orphaned CDT build configuration [com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release.1596418276]: parent extension cfg [com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.release] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:510)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:240)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.isNewStyleProject(CProjectDescriptionManager.java:2464)
+	at org.eclipse.cdt.core.model.CoreModel.isNewStyleProject(CoreModel.java:1457)
+	at org.eclipse.cdt.ui.actions.ChangeBuildConfigActionBase.onSelectionChanged(ChangeBuildConfigActionBase.java:320)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.selectionChanged(BuildActiveConfigMenuAction.java:104)
+	at org.eclipse.ui.internal.PluginAction.refreshEnablement(PluginAction.java:201)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:264)
+	at org.eclipse.ui.internal.PluginAction.selectionChanged(PluginAction.java:288)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2128)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1660)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1090)
+	at org.eclipse.ui.navigator.CommonViewer.setSelection(CommonViewer.java:371)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.lambda$4(PackageExplorerContentProvider.java:988)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runUpdates(PackageExplorerContentProvider.java:210)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider.runPendingUpdates(PackageExplorerContentProvider.java:202)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerContentProvider$1.runInUIThread(PackageExplorerContentProvider.java:180)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:11.990
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.318258253"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.030
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.1465332735"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.065
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.649925176"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.098
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1383297766"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.130
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.222198504"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.164
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.1946430969"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.201
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1941065630"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.242
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.assembler.option.debuglevel.1353085833"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.277
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.debuglevel.189146356"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.325
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.optimization.level.1509133607"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.364
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.definedsymbols.923473189"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.392
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.option.includepaths.1710571420"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.416
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.debuglevel.809383826"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.442
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.optimization.level.284513478"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2023-08-10 09:00:12.470
+!MESSAGE Missing superclass "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script" for "com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.option.script.1950768703"
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-08-10 09:00:25.744
+!MESSAGE Indexed '0003Add' (0 sources, 0 headers) in 0,018 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

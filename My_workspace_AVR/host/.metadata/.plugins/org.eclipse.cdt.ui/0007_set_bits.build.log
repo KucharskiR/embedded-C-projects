@@ -1,0 +1,7 @@
+22:51:14 **** Incremental Build of configuration Debug for project 0007_set_bits ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 0007_set_bits.exe main.o 
+
+22:51:15 Build Finished. 0 errors, 0 warnings. (took 505ms)
+

@@ -1,0 +1,7 @@
+19:32:51 **** Clean-only build of configuration Debug for project 0000_TestUNO ****
+make clean 
+rm -rf  ./main.o  sizedummy  0000_TestUNO.lss  ./main.d  0000_TestUNO.elf
+' '
+
+19:32:51 Build Finished. 0 errors, 0 warnings. (took 372ms)
+

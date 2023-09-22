@@ -1,0 +1,10 @@
+avrpaths//systempath/AVRDUDE=
+avrpaths//systempath/AVRGCC=
+avrpaths//systempath/AVRINCLUDE=
+avrpaths//systempath/MAKE=
+avrpaths//systempath/PDFPATH=
+avrpaths/AVRGCC=C\:\\CTOOLS\\avr-gcc_12.1.0_64bit\\bin
+avrpaths/AVRINCLUDE=C\:\\CTOOLS\\avr-gcc_12.1.0_64bit\\avr\\include
+avrpaths/MAKE=C\:\\CTOOLS\\avr-gcc_12.1.0_64bit\\bin
+avrpaths/NoScanAtStartup=true
+eclipse.preferences.version=1

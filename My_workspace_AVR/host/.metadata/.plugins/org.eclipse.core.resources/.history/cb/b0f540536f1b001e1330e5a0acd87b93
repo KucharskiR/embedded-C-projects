@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: 5 lip 2023
+ *      Author: kucha
+ */
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void) {
+
+	int16_t a,b;
+	printf("Enter number 1: \n");
+	scanf("%d",&a);
+	printf("Enter number 2: ");
+	scanf("%d",&b);
+
+
+	/* wait for the character */
+	printf("\nPress enter to end application...");
+	while(getchar() != '\n');
+
+	getchar();
+	return 0;
+}

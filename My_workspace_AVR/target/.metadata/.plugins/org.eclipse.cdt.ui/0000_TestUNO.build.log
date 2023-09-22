@@ -1,0 +1,12 @@
+18:35:44 **** Incremental Build of configuration Release for project 0000_TestUNO ****
+make all 
+'Invoking: Print Size'
+avr-size --format=berkeley -t 0000_TestUNO.elf
+   text	   data	    bss	    dec	    hex	filename
+    242	      0	      0	    242	     f2	0000_TestUNO.elf
+    242	      0	      0	    242	     f2	(TOTALS)
+'Finished building: sizedummy'
+' '
+
+18:35:44 Build Finished. 0 errors, 0 warnings. (took 369ms)
+

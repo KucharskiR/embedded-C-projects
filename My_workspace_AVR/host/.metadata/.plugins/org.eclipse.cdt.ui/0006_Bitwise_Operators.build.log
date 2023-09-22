@@ -1,0 +1,7 @@
+22:20:32 **** Incremental Build of configuration Debug for project 0006_Bitwise_Operators ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o 0006_Bitwise_Operators.exe main.o 
+
+22:20:33 Build Finished. 0 errors, 0 warnings. (took 600ms)
+

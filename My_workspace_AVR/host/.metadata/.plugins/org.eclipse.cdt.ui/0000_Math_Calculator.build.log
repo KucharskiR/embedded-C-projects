@@ -1,0 +1,25 @@
+01:31:34 **** Incremental Build of configuration Release for project 0000_Math_Calculator ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:14:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+   14 |   printf("Math mul: %lld\n",mathMult(2,5));
+      |                       ^
+..\main.c:14:10: warning: too many arguments for format [-Wformat-extra-args]
+   14 |   printf("Math mul: %lld\n",mathMult(2,5));
+      |          ^~~~~~~~~~~~~~~~~~
+..\main.c:14:23: warning: unknown conversion type character 'l' in format [-Wformat=]
+   14 |   printf("Math mul: %lld\n",mathMult(2,5));
+      |                       ^
+..\main.c:14:10: warning: too many arguments for format [-Wformat-extra-args]
+   14 |   printf("Math mul: %lld\n",mathMult(2,5));
+      |          ^~~~~~~~~~~~~~~~~~
+gcc -o 0000_Math_Calculator.exe main.o math.o 
+C:\CTOOLS\mingw32\bin/ld.exe: math.o:math.c:(.text+0x0): multiple definition of `mathAdd'; main.o:main.c:(.text+0x0): first defined here
+C:\CTOOLS\mingw32\bin/ld.exe: math.o:math.c:(.text+0x10): multiple definition of `mathSub'; main.o:main.c:(.text+0x10): first defined here
+C:\CTOOLS\mingw32\bin/ld.exe: math.o:math.c:(.text+0x20): multiple definition of `mathMult'; main.o:main.c:(.text+0x20): first defined here
+C:\CTOOLS\mingw32\bin/ld.exe: math.o:math.c:(.text+0x30): multiple definition of `mathDiv'; main.o:main.c:(.text+0x30): first defined here
+collect2.exe: error: ld returned 1 exit status
+
+01:31:34 Build Failed. 4 errors, 4 warnings. (took 462ms)
+

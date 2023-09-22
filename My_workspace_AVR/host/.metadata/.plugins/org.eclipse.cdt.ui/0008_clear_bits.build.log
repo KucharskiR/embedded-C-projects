@@ -1,0 +1,6 @@
+23:23:16 **** Incremental Build of configuration Debug for project 0008_clear_bits ****
+Info: Internal Builder is used for build
+gcc -o 0008_clear_bits.exe main.o 
+
+23:23:16 Build Finished. 0 errors, 0 warnings. (took 449ms)
+

@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: 12 cze 2023
+ *      Author: kucha
+ */
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <util/delay.h>
+#include <stdio.h>
+
+int main(void){
+	printf(PB0);
+	DDRB |= 1<<PB0;
+	DDRB |= 1<<PB1;
+	while(1){
+		PORTB = 0b00000001;
+		_delay_ms(100);
+		PORTB = 0b00000010;
+		_delay_ms(90);
+	}
+	return 0;
+}
+

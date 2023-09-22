@@ -1,0 +1,43 @@
+/*
+ * main.c
+ *
+ *  Created on: 27 cze 2023
+ *      Author: kucha
+ */
+
+#include <stdio.h>
+#include <stdint.h>
+
+int main(void) {
+	printf("Area calculation program\n"
+			"Circle --> c\n"
+			"Triangle --> t\n"
+			"Rectangle --> r\n"
+			"Square --> s\n"
+			"Trapezoid --> z\n"
+			"Enter the code here: ");
+	uint8_t input = 0;
+	scanf("%c",&input);
+
+	double radius;
+
+	switch (input) {
+		case 'c':
+			printf("Enter the radius: ");
+			if(!scanf("%lf",&radius) || radius <=0){
+				printf("Not valid radius");
+			}
+			printf("Circle area = %0.5lf",3.14/4*(radius*radius));
+			break;
+		default:
+			printf("Not valid type\n");
+			break;
+	}
+
+	/* wait for the character */
+	printf("\nPress enter to end application...");
+	while(getchar() != '\n');
+
+	getchar();
+	return 0;
+}

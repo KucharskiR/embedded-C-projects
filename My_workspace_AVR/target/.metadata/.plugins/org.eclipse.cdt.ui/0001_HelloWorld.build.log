@@ -1,0 +1,12 @@
+18:59:22 **** Incremental Build of configuration Release for project 0001_HelloWorld ****
+make all 
+'Invoking: Print Size'
+avr-size --format=berkeley -t 0001_HelloWorld.elf
+   text	   data	    bss	    dec	    hex	filename
+    508	     70	      6	    584	    248	0001_HelloWorld.elf
+    508	     70	      6	    584	    248	(TOTALS)
+'Finished building: sizedummy'
+' '
+
+18:59:23 Build Finished. 0 errors, 0 warnings. (took 476ms)
+

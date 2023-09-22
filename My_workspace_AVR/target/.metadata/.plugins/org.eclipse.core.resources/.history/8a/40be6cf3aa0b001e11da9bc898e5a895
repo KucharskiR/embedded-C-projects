@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: 12 cze 2023
+ *      Author: kucha
+ */
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <stdio.h>
+#include <avr/interrupt.h>
+#include <stdbool.h>
+#include "usart.h"
+
+static FILE mystdout = FDEV_SETUP_STREAM(usart_putchar_printf, NULL, _FDEV_SETUP_WRITE);
+
+int main(void){
+
+    // setup our stdio stream
+    stdout = &mystdout;
+
+	printf("Hello World");
+	return 0;
+}
+

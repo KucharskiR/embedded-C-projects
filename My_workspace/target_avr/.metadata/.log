@@ -1,0 +1,178 @@
+!SESSION 2023-06-12 18:10:40.620 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-12 18:21:11.712
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-12 18:21:11.728
+!MESSAGE Log4j2 initialized with config file C:\Users\kucha\Documents\Embedded C\My_workspace\target_avr\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-12 18:21:33.158
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY de.innot.avreclipse.core 4 0 2023-06-12 18:31:00.843
+!MESSAGE Could not read file "/dyn/resources/prod_documents/doc2486.pdf" on host "www.atmel.com"
+!SUBENTRY 1 de.innot.avreclipse.core 4 0 2023-06-12 18:31:00.844
+!MESSAGE UnknownServiceException
+!STACK 0
+java.net.UnknownServiceException: no content-type
+	at java.base/java.net.URLConnection.getContentHandler(URLConnection.java:1279)
+	at java.base/java.net.URLConnection.getContent(URLConnection.java:750)
+	at de.innot.avreclipse.util.URLDownloadManager.internalDownload(URLDownloadManager.java:277)
+	at de.innot.avreclipse.util.URLDownloadManager.download(URLDownloadManager.java:196)
+	at de.innot.avreclipse.ui.views.supportedmcu.URLColumnLabelProvider$4.run(URLColumnLabelProvider.java:518)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2023-06-12 18:40:45.911 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-12 18:40:58.732
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-12 18:40:58.737
+!MESSAGE Log4j2 initialized with config file C:\Users\kucha\Documents\Embedded C\My_workspace\target_avr\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-12 18:41:20.316
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.help.base 2 0 2023-06-12 18:43:56.435
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_5.4.1100.202112141617 [186]'. The index should be rebuilt with Lucene 8.4.1
+
+!ENTRY org.eclipse.help.base 2 0 2023-06-12 18:43:56.441
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.platform.doc.user_4.23.0.v20220302-1425 [345]'. The index should be rebuilt with Lucene 8.4.1
+!SESSION 2023-06-12 18:59:38.342 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-12 18:59:50.255
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-12 18:59:50.258
+!MESSAGE Log4j2 initialized with config file C:\Users\kucha\Documents\Embedded C\My_workspace\target_avr\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-12 19:00:18.979
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-06-12 19:06:50.054 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-06-12 19:07:01.297
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-06-12 19:07:01.301
+!MESSAGE Log4j2 initialized with config file C:\Users\kucha\Documents\Embedded C\My_workspace\target_avr\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-06-12 19:07:10.420
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.managedbuilder.ui 4 0 2023-06-12 19:10:39.175
+!MESSAGE class org.eclipse.cdt.internal.ui.wizards.CProjectWizard2 cannot be cast to class org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard (org.eclipse.cdt.internal.ui.wizards.CProjectWizard2 and org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @5f67181f)
+!STACK 0
+java.lang.ClassCastException: class org.eclipse.cdt.internal.ui.wizards.CProjectWizard2 cannot be cast to class org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard (org.eclipse.cdt.internal.ui.wizards.CProjectWizard2 and org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard are in unnamed module of loader org.eclipse.osgi.internal.loader.EquinoxClassLoader @5f67181f)
+	at de.innot.avreclipse.ui.wizards.MCUselectPage.run(MCUselectPage.java:334)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.MBSCustomPageData$1.run(MBSCustomPageData.java:398)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.MBSWizardHandler.doCustom(MBSWizardHandler.java:820)
+	at org.eclipse.cdt.managedbuilder.ui.wizards.MBSWizardHandler.createProject(MBSWizardHandler.java:583)
+	at org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard.lambda$2(CDTCommonProjectWizard.java:252)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:71)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2315)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2340)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:434)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:352)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard.lambda$1(CDTCommonProjectWizard.java:260)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard.invokeRunnable(CDTCommonProjectWizard.java:179)
+	at org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard.getProject(CDTCommonProjectWizard.java:155)
+	at org.eclipse.cdt.ui.wizards.CDTCommonProjectWizard.performFinish(CDTCommonProjectWizard.java:195)
+	at org.eclipse.cdt.internal.ui.wizards.CDTProjectWizard2.performFinish(CDTProjectWizard2.java:63)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:130)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:580)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:414)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-12 19:10:39.671
+!MESSAGE Indexed '0000_TestUNO' (0 sources, 0 headers) in 0,004 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY de.innot.avreclipse.core 4 0 2023-06-12 19:23:45.778
+!MESSAGE Could not read file "/dyn/resources/prod_documents/8271.pdf" on host "www.atmel.com"
+!SUBENTRY 1 de.innot.avreclipse.core 4 0 2023-06-12 19:23:45.778
+!MESSAGE UnknownServiceException
+!STACK 0
+java.net.UnknownServiceException: no content-type
+	at java.base/java.net.URLConnection.getContentHandler(URLConnection.java:1279)
+	at java.base/java.net.URLConnection.getContent(URLConnection.java:750)
+	at de.innot.avreclipse.util.URLDownloadManager.internalDownload(URLDownloadManager.java:277)
+	at de.innot.avreclipse.util.URLDownloadManager.download(URLDownloadManager.java:196)
+	at de.innot.avreclipse.ui.views.supportedmcu.URLColumnLabelProvider$4.run(URLColumnLabelProvider.java:518)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-12 19:32:15.503
+!MESSAGE Indexed '0000_TestUNO' (2 sources, 14 headers) in 0,402 sec: 151 declarations; 626 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-12 19:32:46.983
+!MESSAGE Indexed '0000_TestUNO' (1 sources, 14 headers) in 0,268 sec: 151 declarations; 626 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)

@@ -1,0 +1,113 @@
+13:34:05 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "0004Led_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\My_workspace\target\0004Led_Blink\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0004Led_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0004Led_Blink.elf
+ 
+arm-none-eabi-size   0004Led_Blink.elf 
+arm-none-eabi-objdump -h -S  0004Led_Blink.elf  > "0004Led_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0004Led_Blink.list
+ 
+13:34:11 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-size   0004Led_Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+13:35:23 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-size   0004Led_Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+13:37:37 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-size   0004Led_Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+13:38:48 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "0004Led_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\My_workspace\target\0004Led_Blink\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0004Led_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0004Led_Blink.elf
+ 
+arm-none-eabi-size   0004Led_Blink.elf 
+arm-none-eabi-objdump -h -S  0004Led_Blink.elf  > "0004Led_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0004Led_Blink.list
+ 
+13:39:54 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-size   0004Led_Blink.elf 
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+13:41:12 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "0004Led_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\My_workspace\target\0004Led_Blink\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0004Led_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0004Led_Blink.elf
+ 
+arm-none-eabi-size   0004Led_Blink.elf 
+arm-none-eabi-objdump -h -S  0004Led_Blink.elf  > "0004Led_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0004Led_Blink.list
+ 
+13:42:12 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "0004Led_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\My_workspace\target\0004Led_Blink\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0004Led_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0004Led_Blink.elf
+ 
+arm-none-eabi-size   0004Led_Blink.elf 
+arm-none-eabi-objdump -h -S  0004Led_Blink.elf  > "0004Led_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0004Led_Blink.list
+ 
+13:42:46 **** Incremental Build of configuration Debug for project 0004Led_Blink ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32F411VETx -DSTM32 -DSTM32F4 -DSTM32F411E_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c:22:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   22 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+arm-none-eabi-gcc -o "0004Led_Blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\My_workspace\target\0004Led_Blink\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="0004Led_Blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 0004Led_Blink.elf
+ 
+arm-none-eabi-size   0004Led_Blink.elf 
+arm-none-eabi-objdump -h -S  0004Led_Blink.elf  > "0004Led_Blink.list"
+   text	   data	    bss	    dec	    hex	filename
+    768	      8	   1568	   2344	    928	0004Led_Blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: 0004Led_Blink.list
+ 

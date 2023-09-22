@@ -1,0 +1,28 @@
+/*
+ * main.c
+ *
+ *  Created on: 12 cze 2023
+ *      Author: kucha
+ */
+#define F_CPU 16000000UL
+#include <avr/io.h>
+#include <stdio.h>
+#include <avr/interrupt.h>
+#include <stdbool.h>
+#include "usart.h"
+
+int main(void){
+
+	printf("Hello World");
+	return 0;
+}
+
+void usart_init( uint16_t ubrr) {
+    // Set baud rate
+    UBRRH = (uint8_t)(ubrr>>8);
+    UBRRL = (uint8_t)ubrr;
+    // Enable receiver and transmitter
+    UCSRB = (1<<RXEN)|(1<<TXEN);
+    // Set frame format: 8data, 1stop bit
+    UCSRC = (1<<URSEL)|(3<<UCSZ0);
+}
