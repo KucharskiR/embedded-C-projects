@@ -1,3 +1,10 @@
+disassembly.addressColor=63,209,63
+disassembly.codeBytesColor=218,29,67
+disassembly.errorColor=221,40,103
+disassembly.instructionColor=0,0,206
+disassembly.labelColor=255,191,38
+disassembly.rulerBackgroundColor=64,0,64
+disassembly.sourceColor=200,200,200
 eclipse.preferences.version=1
 rulerContributions=org.eclipse.cdt.dsf.ui.disassemblyColumn.opcodes
 useAnnotationsPrefPage=true

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="PreferencesExportWizard">
-		<item key="" value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets.epf"/>
+		<item key="" value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets_defaults.epf"/>
 		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
 		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="true"/>
-		<item key="" value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets_defaults.epf"/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets_defaults.epf"/>
 			<item value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets.epf"/>
@@ -13,7 +12,9 @@
 	</section>
 	<section name="PreferencesImportWizard">
 		<item key="" value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\C_Editor_Appearance_Editor_Behavior_v1.epf"/>
+		<item key="" value="C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets.epf"/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Dell\Documents\KucharskiR_projects\Embedded C\eclipse_settings\STM32CubeIDE_settings_presets.epf"/>
 			<item value="G:\Inne komputery\Mój laptop - Acer Aspire V3-571\Documents\Embedded C\eclipse_settings\C_Editor_Appearance_Editor_Behavior_v1.epf"/>
 		</list>
 	</section>
